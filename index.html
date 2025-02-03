@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? 💖</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div>
+        <audio id="background-music" loop muted>
+            <source src="/assets/audio/picnic song.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+        <div class="music-player">
+            <button id="play-btn">🎵 Play</button>
+            <button id="pause-btn">⏸️ Pause</button>
+        </div>
+    </div>
+    <div class="container">
+        <img src="assets/images/fox-bunny.gif" alt="Cute Bunny" class="bunny">
+        <h1>Will you be my Valentine? 🥰</h1>
+        <div class="buttons">
+            <button id="yes-btn" onclick="nextPage('page2.html')">Yes 💖</button>
+            <button id="no-btn" onmouseover="moveButton()">No 🙈</button>
+        </div>
+    </div>
+    <audio id="clickSound" src="/assets/audio/click.mp3"></audio>
+</body>
+</html>

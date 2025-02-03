@@ -1,0 +1,104 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #ffccff;
+    text-align: center;
+    padding: 5px;
+    overflow: hidden; /* Prevents accidental page scrolling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    color: #ff0066;
+    font-size: 2.5em;
+}
+.bunny {
+    width: 100px;
+    margin: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#yes-btn {
+    background-color: #ff66b2;
+    color: white;
+}
+
+#yes-btn:hover {
+    transform: scale(1.1);
+}
+
+#no-btn {
+    background-color: #ff3366;
+    color: white;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for movement */
+}
+
+/* Move the No Button when hovered using transform */
+#no-btn:hover {
+    transform: translate(120px, 50px); /* Move right and down within existing space */
+}
+/* Music Player Styling */
+.music-player {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 102, 178, 0.9); /* Cute pink semi-transparent */
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 5px;
+}
+
+.music-player button {
+    background: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.music-player button:hover {
+    transform: scale(1.1);
+}
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    .buttons {
+        flex-direction: column;
+    }
+    
+    button {
+        width: 80%;
+    }
+}
