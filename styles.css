@@ -1,5 +1,5 @@
 body {
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Poppins', sans-serif; /* Soft and cute but readable */
     background-color: #ffccff;
     text-align: center;
     padding: 5px;
@@ -21,6 +21,8 @@ body {
 
 /* Center headings and bunny */
 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #ff0066;
     font-size: 2.5em;
     margin-bottom: 15px;
