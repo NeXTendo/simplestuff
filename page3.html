@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yay! 💖</title>
-    <link rel="stylesheet" href="/styles.css">
-    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div>
-        <audio id="background-music" loop muted>
-            <source src="/assets/audio/picnic song.mp3" type="audio/mpeg">
-            Your browser does not support the audio tag.
+        <audio id="background-music" loop>
+            <source src="/assets/audio/picnic_song.mp3" type="audio/mpeg">
         </audio>
         <div class="music-player">
             <button id="play-btn">🎵 Play</button>
@@ -19,10 +18,12 @@
         </div>
     </div>
     <div class="container">
+        <img src="assets/images/cosytales-love.gif" alt="Happy Bunny" class="bunny">
         <h1>YAY! 🎉💕</h1>
-        <p>Its about time, You made me the happiest person ever! 🥰</p>
-        <img src="assets/images/bunny-petting-bunny.gif" alt="Happy Bunny" class="bunny">
-        <button onclick="startConfetti()">Celebrate! 🎊</button>
+        <p>You made me the happiest person ever! 🥰</p>
+        <a href="more.html" class="celebrate-btn">Pick an Activity! 🎊</a>
     </div>
+    <audio id="clickSound" src="/assets/audio/click.mp3" preload="auto"></audio>
+
 </body>
 </html>
