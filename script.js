@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Don't break my heart 💔",
         "Last chance! 😖",
         "I believe in you! ✨",
-        "Okay... I'm giving up. 😔",
+        "I'm giving up. 😔",
         "Yes"
     ];
     let currentTextIndex = 0;
